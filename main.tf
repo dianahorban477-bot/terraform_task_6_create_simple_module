@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 module "resource_group_storage" {
-  source  = "./modules/resource_group_storage"
+  source = "./modules/resource_group_storage"
 
   resource_group_name  = "rg-from-registry-module"
   storage_account_name = "stfromregistrymod123"
