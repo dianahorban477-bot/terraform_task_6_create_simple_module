@@ -12,8 +12,7 @@ provider "azurerm" {
 }
 
 module "resource_group_storage" {
-  source  = "app.terraform.io/dianahorban477-bot/resource_group_storage/azurerm"
-  version = "1.0.1"
+  source  = "./modules/resource_group_storage"
 
   resource_group_name  = "rg-from-registry-module"
   storage_account_name = "stfromregistrymod123"
