@@ -8,6 +8,7 @@ To complete this task, Terraform and Azure CLI must be installed and configured 
 
 **1. Fork this Repository**
 
+
 **2. Create a Simple Terraform Module**
 
 - Create a directory named `modules/resource_group_storage` in the root of your repository.

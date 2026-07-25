@@ -11,7 +11,7 @@ provider "azurerm" {
   features {}
 }
 
-module "rg_storage" {
+module "resource_group_storage" {
   source  = "app.terraform.io/dianahorban477-bot/resource_group_storage/azurerm"
   version = "1.0.1"
 
